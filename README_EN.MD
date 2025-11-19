@@ -1,9 +1,7 @@
 # Test Task: Real-time 
 
 I created three frontend repositories. Why did this happen?
-
 ---
-
 Initially, I made two versions of the frontend: one with React + Firebase and another with Vue + Pinia + WebSocket, with the help of AI. However, I realized that this approach was not the best, since the purpose of the test task is to assess the developer's skills. Therefore, I decided to rewrite the entire frontend completely on my own using React + Redux + WebSocket.
 
 As a result, the main work is concentrated in the "React-Online-Chat" repository, and the chat logic is entirely implemented by me. It is worth noting that the WebSocket integration was done with the help of AI, as I had no prior experience working with WebSocket.
