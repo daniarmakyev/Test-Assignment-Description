@@ -1,26 +1,28 @@
 # Test Task: Real-time 
 
-## Implementation
+I created three frontend repositories. Why did this happen?
 
-Why did I end up with three frontend repositories? Initially, I made two frontend versions: React + Firebase and Vue + Pinia + WebSocket using AI. However, I realized that this approach was wrong — the test task is meant to assess the developer's level, so I decided to rewrite the entire frontend completely on my own using React + Redux + WebSocket.
+---
 
-Thus, the main work is in the repository "React-Online-Chat," and the chat logic is fully implemented by me. It is worth noting that the WebSocket connection was implemented with the help of AI, as I had no prior experience working with WebSocket.
+Initially, I made two versions of the frontend: one with React + Firebase and another with Vue + Pinia + WebSocket, with the help of AI. However, I realized that this approach was not the best, since the purpose of the test task is to assess the developer's skills. Therefore, I decided to rewrite the entire frontend completely on my own using React + Redux + WebSocket.
 
-1. **Vue version of the chat:**  
+As a result, the main work is concentrated in the "React-Online-Chat" repository, and the chat logic is entirely implemented by me. It is worth noting that the WebSocket integration was done with the help of AI, as I had no prior experience working with WebSocket.
+
+1. **React (self-worked):**  
+   [React-Online-Chat](https://github.com/daniarmakyev/React-Online-Chat)  
+   This version was fully implemented by me, except for WebSocket integration.
+
+2. **Vue version of the chat:**  
    [Online-Chat-Vue](https://github.com/daniarmakyev/Online-Chat-Vue)  
    Built with Vue 3 + Pinia + WebSocket backend.
 
-2. **React version of the chat:**  
+3. **React version of the chat:**  
    [Online-Chat-React](https://github.com/daniarmakyev/Online-Chat-React)  
    Built with React + Redux Toolkit + Firestore + Firebase.
 
-3. **Backend (Express.js):**  
+4. **Backend (Express.js):**  
    [Backend-ExpressJS-Online-Chat](https://github.com/daniarmakyev/Backend-ExpressJS-Online-Chat)  
    Service for managing channels, users, and messages using Express + MongoDB + socket.io.
-
-4. **React version with WebSocket connection:**  
-   [React-Online-Chat](https://github.com/daniarmakyev/React-Online-Chat)  
-   This version was fully implemented by me, except for WebSocket integration.
 
 ---
 
@@ -30,10 +32,10 @@ All projects are deployed, but there is an important feature: the backend is hos
 
 ## Links to Sites
 
+- React (self-worked): https://react-online-chat-flax.vercel.app/
 - Vue version: https://online-chat-vue.vercel.app/auth
 - React version: https://online-chat-rosy.vercel.app/
 - Backend Express.js: https://online-chat-backend-jin2.onrender.com/
-- React (self-worked): https://react-online-chat-flax.vercel.app/
 
 ---
 
