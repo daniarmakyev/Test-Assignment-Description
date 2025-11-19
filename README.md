@@ -1,26 +1,28 @@
 # Тестовое задание: Real-time
 
-## Реализация
-
-Почему у меня получилось три репозитория с фронтендом? Изначально я сделал две версии фронтенда React + Firebase и Vue + Pinia + WebSocket с помощью ИИ. Однако я понял, что такой подход неправильный тестовое задание же создано что выявить уровень разработчика, поэтому я решил переписать весь фронтенд полностью самостоятельно на React + Redux + WebSocket.
+Я сделал три репозитория с фронтендом. Почему так получилось? 
+---
+Изначально я сделал две версии фронтенда React + Firebase и Vue + Pinia + WebSocket с помощью ИИ. Однако я понял, что такой подход неправильный тестовое задание же создано что выявить уровень разработчика, поэтому я решил переписать весь фронтенд полностью самостоятельно на React + Redux + WebSocket.
 
 Таким образом, основная работа в репозитории "React-Online-Chat" и логика чата реализованы полностью мной. Стоит отметить, что подключение WebSocket было выполнено с помощью ИИ, так как у меня ещё не было опыта работы с WebSocket.
 
-1. **Vue версия чата:**  
+1. **React (самостоятельная работа):**  
+   [React-Online-Chat](https://github.com/daniarmakyev/React-Online-Chat)  
+   Эта версия была выполнена мной полностью самостоятельно, за исключением интеграции WebSocket.
+   
+2. **Vue версия чата:**  
    [Online-Chat-Vue](https://github.com/daniarmakyev/Online-Chat-Vue)  
    Сделано на Vue 3 + Pinia + WebSocket backend.
 
-2. **React версия чата:**  
+3. **React версия чата:**  
    [Online-Chat-React](https://github.com/daniarmakyev/Online-Chat-React)  
    Сделано на React + Redux Toolkit + Firestore + Firebase.
 
-3. **Backend (Express.js):**  
+4. **Backend (Express.js):**  
    [Backend-ExpressJS-Online-Chat](https://github.com/daniarmakyev/Backend-ExpressJS-Online-Chat)  
    Сервис для работы с каналами, пользователями и сообщениями на Express + MongoDB + socket.io.
 
-4. **React версия с подключением WebSocket:**  
-   [React-Online-Chat](https://github.com/daniarmakyev/React-Online-Chat)  
-   Эта версия была выполнена мной полностью самостоятельно, за исключением интеграции WebSocket.
+
 
 ---
 
@@ -30,10 +32,10 @@
 
 ## Ссылки на сайты
 
+- React (самостоятельная работа): https://react-online-chat-flax.vercel.app/
 - Vue версия: https://online-chat-vue.vercel.app/auth
 - React версия: https://online-chat-rosy.vercel.app/
 - Backend Express.js : https://online-chat-backend-jin2.onrender.com/
-- React (самостоятельная работа): https://react-online-chat-flax.vercel.app/
 
 ---
 
