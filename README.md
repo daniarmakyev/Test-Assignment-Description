@@ -6,19 +6,22 @@
 
 Таким образом, основная работа в репозитории "React-Online-Chat" и логика чата реализованы полностью мной. Стоит отметить, что подключение WebSocket было выполнено с помощью ИИ, так как у меня ещё не было опыта работы с WebSocket.
 
+
+
 1. **React (самостоятельная работа):**  
    [React-Online-Chat](https://github.com/daniarmakyev/React-Online-Chat)  
    Эта версия была выполнена мной полностью самостоятельно, за исключением интеграции WebSocket.
+   Иногда сокет может не подключатся в чате надо будет перезапустить страницу.
    
-2. **Vue версия чата:**  
+3. **Vue версия чата:**  
    [Online-Chat-Vue](https://github.com/daniarmakyev/Online-Chat-Vue)  
    Сделано на Vue 3 + Pinia + WebSocket backend.
 
-3. **React версия чата:**  
+4. **React версия чата:**  
    [Online-Chat-React](https://github.com/daniarmakyev/Online-Chat-React)  
    Сделано на React + Redux Toolkit + Firestore + Firebase.
 
-4. **Backend (Express.js):**  
+5. **Backend (Express.js):**  
    [Backend-ExpressJS-Online-Chat](https://github.com/daniarmakyev/Backend-ExpressJS-Online-Chat)  
    Сервис для работы с каналами, пользователями и сообщениями на Express + MongoDB + socket.io.
 
