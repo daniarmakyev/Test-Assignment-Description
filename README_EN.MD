@@ -1,4 +1,4 @@
-# Test Task: Real-time Chat for Sibers
+# Test Task: Real-time 
 
 ## Implementation
 
